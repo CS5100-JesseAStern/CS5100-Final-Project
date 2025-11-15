@@ -1,11 +1,3 @@
-Phase 1 textbook references include the below:
-
-* 19.8.4 on boosting and 19.8.5 on gradient boosting  
-* 19.8.2 on random forests (bagging before that)
-
-Starts here  
-\----------------------------------------------------------
-
 Project part 2 is about working from the prior phase to try new ideas (of your choice). This can include trying entirely new methods/techniques or improving on some of what you did in phase 1\.
 
 Phase 1 is graded using an autograder and contributes up to 12 points. Your autograder grade is added to the below scores for phase 2 to calculate your overall final project grade. Each of the items in the below rubric are expanded upon in their own sub-section below the table.
