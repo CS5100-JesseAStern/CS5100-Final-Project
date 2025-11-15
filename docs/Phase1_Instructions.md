@@ -92,7 +92,7 @@ Minimum expected performance on the mini dataset:
 
 | Model                   | Requirement                                                    |
 | ----------------------- | -------------------------------------------------------------- |
-| Gradient Boosting       | F1 ≥ 0.40**OR** (F1_model ≥ F1_dummy + 0.10)          |
+| Gradient Boosting       | F1 ≥ 0.40 **OR** F1_model ≥ (F1_dummy + 0.10)          |
 | Random Forest (scratch) | F1 ≥ 0.30 **OR** F1 ≥ (F1_gradient_boosting − 0.15) |
 | Either model            | ROC-AUC > 0.50                                                 |
 
