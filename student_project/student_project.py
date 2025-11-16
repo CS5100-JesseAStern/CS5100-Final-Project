@@ -2,7 +2,7 @@
 """
 Student starter (broken by design) for CS5100 Phase 1.
 This file is intentionally TODO-heavy. Students must implement the functions
-below to pass the public and hidden tests.
+below to pass the tests.
 
 Design goals:
 - Clear error messages (NotImplementedError) instead of silent wrong types.
@@ -79,7 +79,7 @@ def preprocess_data(df):
     - Scale numeric columns to [0,1] range
     - Return a pandas DataFrame that includes 'at_risk' and only numeric columns otherwise
 
-    NOTE: Hidden tests assert target is exactly (G3 < 10) and will fail if you change it.
+    NOTE: Tests assert target is exactly (G3 < 10) and will fail if you change it.
     """
     raise NotImplementedError("preprocess_data(df) not implemented. See docstring for expected contract.")
 
@@ -93,7 +93,7 @@ def train_gb_pipeline(X_train=None, y_train=None):
       ("preprocessor", ColumnTransformer(...)) and ("classifier", GradientBoostingClassifier)
 
     - Must return a fitted sklearn-like pipeline with .predict() and preferably .predict_proba()
-    - Hidden tests expect a named step "preprocessor" to exist (if you return a Pipeline)
+    - Tests expect a named step "preprocessor" to exist (if you return a Pipeline)
 
     TODO: implement. The starter returns an unfitted pipeline / raises if sklearn is missing.
     """

@@ -72,13 +72,13 @@ We run a policy check; using banned APIs **fails** the tests.
 
 **Q8. What counts as data leakage here?**
 
-**A.** Feeding `G3` (final grade) directly into features, or creating `at_risk` **after** any transformation/split. Also avoid using `G2` in ways that implicitly reveal `G3`. Our hidden tests check for leakage.
+**A.** Feeding `G3` (final grade) directly into features, or creating `at_risk` **after** any transformation/split. Also avoid using `G2` in ways that implicitly reveal `G3`. Our tests check for leakage.
 
 ---
 
 **Q9. How big is the dataset I should use locally?**
 
-**A.** We provide a **mini dataset (~10% stratified)** for fast iteration. Hidden tests may use the full UCI file. Your code must generalize (no hard-coded row counts).
+**A.** We provide a **mini dataset (~10% stratified)** for fast iteration. Tests may use the full UCI file. Your code must generalize (no hard-coded row counts).
 
 ---
 

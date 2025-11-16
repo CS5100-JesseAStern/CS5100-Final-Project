@@ -89,13 +89,13 @@ def test_random_forest_fits_and_predicts():
     assert len(preds) == len(y), "predict() must return one label per row"
 
 # ---------- Extra test A: dataset contents ----------
-def test_load_data_columns_hidden():
+def test_load_data_columns():
     df = load_data()
     expected = {"school", "sex", "age", "address", "G1", "G2", "G3"}
     assert expected.issubset(set(df.columns)), "Extra: dataset missing expected columns"
 
 # ---------- Extra test B: summary stats reasonable ----------
-def test_summary_stats_ranges_hidden():
+def test_summary_stats_ranges():
     df = load_data()
     mean_G3 = df["G3"].mean()
     median_absences = df["absences"].median()
@@ -103,7 +103,7 @@ def test_summary_stats_ranges_hidden():
     assert median_absences >= 0, "Extra: median_absences negative"
 
 # ---------- Extra test C: preprocessing scaling on 'age' ----------
-def test_preprocess_scaling_hidden():
+def test_preprocess_scaling():
     df = load_data()
     proc = preprocess_data(df)
     # Extra test assumes students scaled numeric columns between 0 and 1
@@ -112,7 +112,7 @@ def test_preprocess_scaling_hidden():
         assert proc[col].min() >= 0 and proc[col].max() <= 1, f"Extra: numeric column '{col}' must be scaled to [0,1]"
 
 # ---------- Extra test D: GB pipeline includes classifier ----------
-def test_gb_pipeline_has_classifier_hidden():
+def test_gb_pipeline_has_classifier():
     from sklearn.pipeline import Pipeline
     from sklearn.ensemble import GradientBoostingClassifier
 

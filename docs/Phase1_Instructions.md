@@ -121,22 +121,20 @@ If we detect these, tests will fail.
 
 ## Testing
 
-Run public tests locally:
+Run tests locally:
 
 <pre class="overflow-visible!" data-start="2796" data-end="2842"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>pytest tests/test_phase_1.py
 </span></span></code></div></div></pre>
 
-Hidden tests check:
+Tests check:
 
+* I/O and core functionality
 * No leakage (G1/G2/G3 not directly fed to models)
 * Data fully numeric and scaled
 * Correct class names + methods
 * Bootstrapped trees actually created
 * Metric thresholds
-
-Public tests verify I/O and core functionality.
-
-Hidden tests verify structure, correctness, and quality.
+* Verify structure, correctness, and quality
 
 ---
 
