@@ -2,7 +2,7 @@
 
 **Foundations of Artificial Intelligence — Fall 2025**
 
-**Phase 1 Duration:** Weeks 0–2
+**Phase 1 Duration:** ~1 week
 
 **Repo Path:** `docs/Phase1_Instructions.md`
 
