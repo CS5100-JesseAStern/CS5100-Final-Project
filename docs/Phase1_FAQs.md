@@ -106,7 +106,7 @@ We run a policy check; using banned APIs **fails** the tests.
 
 ---
 
-**Q15. Common failure causes?**
+**Q14. Common failure causes?**
 
 * Not creating `at_risk` correctly (or at all)
 * Leaving categorical columns unencoded
