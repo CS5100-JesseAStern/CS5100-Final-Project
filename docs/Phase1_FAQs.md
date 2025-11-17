@@ -106,12 +106,6 @@ We run a policy check; using banned APIs **fails** the tests.
 
 ---
 
-**Q14. What should my short report include?**
-
-**A.** 1–2 pages: preprocessing summary, model configs, F1/ROC-AUC table, brief error analysis (what fails and why), and one takeaway.
-
----
-
 **Q15. Common failure causes?**
 
 * Not creating `at_risk` correctly (or at all)
