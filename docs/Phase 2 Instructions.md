@@ -1,4 +1,6 @@
-Project part 2 is about working from the prior phase to try new ideas (of your choice). This can include trying entirely new methods/techniques or improving on some of what you did in phase 1\. If you are working as a group of 2, you **must** make your submission as a **joint submission on Gradescope** (failure to do so will result in a deduction to your project score under the "Report" catagory of the rubric).
+Project part 2 is about working from the prior phase to try new ideas (of your choice). This can include trying entirely new methods/techniques or improving on some of what you did in phase 1\.
+
+If you are working as a group of 2, you **must** make your submission as a **joint submission on Gradescope** (failure to do so will result in a deduction to your project score under the "Report" catagory of the rubric).
 
 Phase 1 is graded using an autograder and contributes up to 12 points. Your autograder grade is added to the below scores for phase 2 to calculate your overall final project grade. Each of the items in the below rubric are expanded upon in their own sub-section below the table.
 
