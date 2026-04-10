@@ -6,7 +6,7 @@
 
 **Repo Path:** `docs/Phase1_Instructions.md`
 
-**Group Size:** 1–2 students
+**Group Size:** 1–2 students (if working as a pair, make sure to read the special submission isntructions for phase 2 for pairs when you get to phase 2!)
 
 ---
 
