@@ -48,7 +48,7 @@ Points in the below list reflect the scope contribution of that item. Extension 
       * 20.3.2 \- Learning Bayes net parameter values for hidden variables (+3 point, for adding a reasonable hidden variable and incorporating into the bayes net learning)  
 * Simulate RL application  
   * We want to allocate resources to improve student performance. Build an MDP with rewards based on allocation of resources and results of this, then use active RL to learn the action utility function (see 22.3) or an optimal policy (see 22.5) for intervention and resource allocation (4 points)  
-    * Use any of the generalizations/estimation methods from 22.4 (+2 points)  
+    * ADD SCOPE POINT DETAILS/SCENARIOS HERE 
 * Neural Networks (4 points, can only be scored once, can pick from the below options or some other model) 
   * Section 21.6 \- Recurrent Neural Network (RNN)  
   * Section 24.4 \- Transformers
