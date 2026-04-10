@@ -1,6 +1,6 @@
 # Phase 1 Project Instructions: Student Success Prediction
 
-**Foundations of Artificial Intelligence — Fall 2025**
+**Foundations of Artificial Intelligence — Spring 2026**
 
 **Phase 1 Duration:** ~1 week
 
