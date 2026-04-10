@@ -34,7 +34,6 @@ Your implementation of the below need not yield vast improvements in results, bu
 
 Points in the below list reflect the scope contribution of that item. Extension items that do not require pre-approval include:
 
-* Use the full data set rather than the \~10% used in the first phase (1 point)  
 * Reduced dataset dimensionality via feature selection (1 point)  
   * This is not a method in and of itself, but an idea one can add onto another approach (including those from phase 1\) for improved results and a extra point)  
 * Any other additional forms of ensemble learning  
