@@ -1,6 +1,4 @@
-Project part 2 is about working from the prior phase to try new ideas (of your choice). This can include trying entirely new methods/techniques or improving on some of what you did in phase 1\.
-
-If you are working as a group of 2, you **must** make your submission as a **joint submission on Gradescope** (failure to do so will result in a deduction to your project score under the "Report" catagory of the rubric).
+Project part 2 is about working from the prior phase to try new ideas (of your choice). This can include trying entirely new methods/techniques or improving on some of what you did in phase 1\. You 
 
 Phase 1 is graded using an autograder and contributes up to 12 points. Your autograder grade is added to the below scores for phase 2 to calculate your overall final project grade. Each of the items in the below rubric are expanded upon in their own sub-section below the table.
 
@@ -12,7 +10,15 @@ Phase 1 is graded using an autograder and contributes up to 12 points. Your auto
 
 ---
 
-<ins>**Full Details Phase 2 Details by Item**</ins>
+<ins>**General Requirments**</ins>
+
+You **must** use the full data set for phase 2 (unlike in phase 1, where a mini version was used). Failure to do so will result in a deduction to your project score under the "Scope" catagory of the rubric.
+
+If you are working as a group of 2, you **must** make your submission as a **joint submission on Gradescope**. Failure to do so will result in a deduction to your project score under the "Report" catagory of the rubric.
+
+
+
+<ins>**Full Phase 2 Details by Rubric Item**</ins>
 
 
 <ins>**Scope**</ins>
@@ -33,17 +39,17 @@ Points in the below list reflect the scope contribution of that item. Extension 
   * This is not a method in and of itself, but an idea one can add onto another approach (including those from phase 1\) for improved results and a extra point)  
 * Any other additional forms of ensemble learning  
   * Section 19.8  
-    * 19.8.3 \- Stacking (2 point)  
-    * 19.8.6 \- Online learning (3 points, for this one would need to simulate the online case by having “base” data and new data provided over time)  
-    * As an alternative, you may try to “fuse” your random forest and gradient boosting methods for improved results compared to either independently (1 point)  
+    * 19.8.3 \- Stacking (1 point)
+      * You should use your your random forest and gradient boosting methods from pahse 1 here, as well as at least 1 other model (though you may call other model from libraries to utilize them in your stacking implementation)
+    * 19.8.6 \- Online learning (2 points, for this one would need to simulate the online case by having “base” data and new data provided over time)  
 * Model uncertainty by learning a probabilistic model  
   * Chapter 20 (must read 20.1)  
-    * 20.2.7 \- Learning Bayes net structure (4 points)  
-      * 20.3.2 \- Learning Bayes net parameter values for hidden variables (+2 point, for adding a reasonable hidden variable and incorporating into the bayes net learning)  
+    * 20.2.7 \- Learning Bayes net structure (5 points)  
+      * 20.3.2 \- Learning Bayes net parameter values for hidden variables (+3 point, for adding a reasonable hidden variable and incorporating into the bayes net learning)  
 * Simulate RL application  
   * We want to allocate resources to improve student performance. Build an MDP with rewards based on allocation of resources and results of this, then use active RL to learn the action utility function (see 22.3) or an optimal policy (see 22.5) for intervention and resource allocation (4 points)  
     * Use any of the generalizations/estimation methods from 22.4 (+2 points)  
-* Neural Networks (4 points for one, 7 points for 2 distinct families and comparison)  
+* Neural Networks (4 points, can only be scored once, can pick from the below options or some other model) 
   * Section 21.6 \- Recurrent Neural Network (RNN)  
   * Section 24.4 \- Transformers
 
