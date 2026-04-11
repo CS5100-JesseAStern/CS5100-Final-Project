@@ -45,9 +45,19 @@ Points in the below list reflect the scope contribution of that item. Extension 
   * Chapter 20 (must read 20.1)  
     * 20.2.7 \- Learning Bayes net structure (5 points)  
       * 20.3.2 \- Learning Bayes net parameter values for hidden variables (+3 point, for adding a reasonable hidden variable and incorporating into the bayes net learning)  
-* Simulate RL application  
-  * We want to allocate resources to improve student performance. Build an MDP with rewards based on allocation of resources and results of this, then use active RL to learn the action utility function (see 22.3) or an optimal policy (see 22.5) for intervention and resource allocation (4 points)  
-    * ADD SCOPE POINT DETAILS/SCENARIOS HERE 
+* Simulate RL application
+    * We want to allocate resources to improve student performance.
+  Build an MDP with rewards based on allocation of resources and
+  results of this, then use active RL to learn the action utility
+  function (see 22.3) or an optimal policy (see 22.5) for intervention
+  and resource allocation (4 points)
+      * **Standard track:** score ≥ 6.0 earns 1 scope point; score ≥
+  8.0 earns 2 scope points
+      * **Hidden track:** score ≥ 6.0 earns 1 scope point; score ≥ 7.5
+  earns 2 scope points
+      * See the [leaderboard and submission
+  instructions](https://cs5100-rl-server.vercel.app/instructions) for
+  setup, starter code, and how to submit
 * Neural Networks (3 points, can only be scored once, can pick from the below options or some other model) 
   * Section 21.6 \- Recurrent Neural Network (RNN)  
   * Section 24.4 \- Transformers
