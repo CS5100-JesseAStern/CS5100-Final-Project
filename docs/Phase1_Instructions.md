@@ -8,6 +8,8 @@
 
 **Group Size:** 1–2 students (if working as a pair, make sure to read the special submission isntructions for phase 2 for pairs when you get to phase 2!)
 
+**Submission Method:** Each group member must individually submit their work via Gradescope where it will be autograded. If working as a pair, your submission may be the same as your group mate's submission, but you must both contribute significantly to it and must both understand the final output in full
+
 ---
 
 ## Goal
