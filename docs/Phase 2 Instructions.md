@@ -1,4 +1,4 @@
-Project part 2 is about working from the prior phase to try new ideas (of your choice). This can include trying entirely new methods/techniques or improving on some of what you did in phase 1\. You 
+Project part 2 is about working from the prior phase to try new ideas (of your choice). This can include trying entirely new methods/techniques or improving on some of what you did in phase 1\. You will submit this via Gradescope.
 
 Phase 1 is graded using an autograder and contributes up to 12 points. Your autograder grade is added to the below scores for phase 2 to calculate your overall final project grade. Each of the items in the below rubric are expanded upon in their own sub-section below the table.
 
@@ -15,6 +15,8 @@ Phase 1 is graded using an autograder and contributes up to 12 points. Your auto
 You **must** use the full data set for phase 2 (unlike in phase 1, where a mini version was used). Failure to do so will result in a deduction to your project score under the "Scope" catagory of the rubric.
 
 If you are working as a group of 2, you **must** make your submission as a **joint submission on Gradescope**. Failure to do so will result in a deduction to your project score under the "Report" catagory of the rubric.
+
+While also mentioned under "Report," it is critical that you include a link to your Git Repo in your report. We cannot grade your phase 2 work without this!!
 
 
 
@@ -67,7 +69,7 @@ Points in the below list reflect the scope contribution of that item. Extension 
 
 <ins>**Report**</ins>
 
-This should include an overview of the work, alink to your Git Repo, sections for each element from scope that was incorporated, a reflection (scored separately, see below) and a full bibliography. The sections on each scope element should include some details as to what that technique is, how it was implemented to address the given problem, and the results (with tables/figures as appropriate). There is no specific page minimum or limit, but I will say that the focus is primarily upon quality, not quantity. Focus on demonstrating a basic understanding of the topic, its contextual relevance to the problem, and clearly expressing your results and their degree of significance, **not** on length. For example, 1 to 2 good pages of text on a sub-topic plus supporting data in tables/graphs would be sufficient.  
+This should include an overview of the work, a link to your Git Repo, sections for each element from scope that was incorporated, a reflection (scored separately, see below) and a full bibliography. The sections on each scope element should include some details as to what that technique is, how it was implemented to address the given problem, and the results (with tables/figures as appropriate). There is no specific page minimum or limit, but I will say that the focus is primarily upon quality, not quantity. Focus on demonstrating a basic understanding of the topic, its contextual relevance to the problem, and clearly expressing your results and their degree of significance, **not** on length. For example, 1 to 2 good pages of text on a sub-topic plus supporting data in tables/graphs would be sufficient.  
 The report must be typed, but need not be done in LaTeX. If you choose not to use LaTeX, your mathematical content must be similarly well type-set as it would be had you used LaTeX, so be aware that you will either need to grapple with the general pain of LaTeX use or with the sometimes extremely difficult battle of trying to wrestle clean mathematical equations out of something like Microsoft Word. Which will be easier to use depends heavily on the nature of your project and will also depend somewhat on your group’s comfort level with LaTeX.  
 Please note that, as with other assessments, you may **not** use LLMs to generate non-negligible ideas or content included in your project and must understand all content you include in your project.  
 For groups of 2, a single report for both group members is submitted.
